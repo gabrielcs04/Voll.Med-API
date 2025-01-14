@@ -27,7 +27,7 @@ public class Medico {
     public Medico() {
     }
 
-    public Medico(Long id, String nome, String email, String crm, Especialidade especialidade, Endereco endereco) {
+    public Medico(Long id, String nome, String email, String telefone, String crm, Especialidade especialidade, Endereco endereco) {
         this.id = id;
         this.nome = nome;
         this.email = email;
