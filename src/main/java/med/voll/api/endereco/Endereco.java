@@ -26,6 +26,34 @@ public class Endereco {
         this.complemento = dados.complemento();
     }
 
+    public String getLogradouro() {
+        return logradouro;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public String getUf() {
+        return uf;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public String getComplemento() {
+        return complemento;
+    }
+
     public void atualizarInformacoes(DadosEndereco dados) {
         if (dados.logradouro() != null) this.logradouro = dados.logradouro();
         if (dados.bairro() != null) this.bairro = dados.bairro();
@@ -35,4 +63,5 @@ public class Endereco {
         if (dados.numero() != null) this.numero = dados.numero();
         if (dados.complemento() != null) this.complemento = dados.complemento();
     }
+
 }
